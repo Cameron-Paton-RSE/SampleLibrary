@@ -33,7 +33,7 @@
           <MultilingualTextItem ID="2" CompositionName="Items">
             <AttributeList>
               <Culture>en-US</Culture>
-              <Text />
+              <Text>h</Text>
             </AttributeList>
           </MultilingualTextItem>
         </ObjectList>
