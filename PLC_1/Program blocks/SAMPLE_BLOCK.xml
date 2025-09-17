@@ -63,7 +63,7 @@
               <MultilingualTextItem ID="7" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-                  <Text>Drive 1 - Latch </Text>
+                  <Text>Drive 1 - Latching</Text>
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -103,7 +103,7 @@
               <MultilingualTextItem ID="C" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-                  <Text>Drive 2 - Latch </Text>
+                  <Text>Drive 2 - Latching</Text>
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
