@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V19" />
+  <SW.Blocks.InstanceDB ID="0">
+    <AttributeList>
+      <InstanceOfName>Pump_Block</InstanceOfName>
+      <InstanceOfType>FB</InstanceOfType>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input">
+    <Member Name="Mode_Selection" Datatype="Bool" />
+    <Member Name="Start_Manual" Datatype="Bool" />
+    <Member Name="Stop_Manual" Datatype="Bool" />
+    <Member Name="Start_Auto" Datatype="Bool" />
+    <Member Name="Stop_Auto" Datatype="Bool" />
+    <Member Name="Level_High" Datatype="Bool" />
+    <Member Name="Level_Low" Datatype="Bool" />
+    <Member Name="Set_Time_Start" Datatype="DInt" />
+    <Member Name="Overload" Datatype="Bool" />
+    <Member Name="Reset_Fault" Datatype="Bool" />
+  </Section>
+  <Section Name="Output">
+    <Member Name="Pump_Run" Datatype="Bool" />
+    <Member Name="Fault" Datatype="Bool" />
+    <Member Name="Running_Auto_Mode" Datatype="Bool" />
+  </Section>
+  <Section Name="InOut" />
+  <Section Name="Static">
+    <Member Name="Timer_Start" Datatype="IEC_TIMER" Version="1.0" />
+    <Member Name="Start_Auto_Activated" Datatype="Bool" />
+  </Section>
+</Sections></Interface>
+      <Name>PumpControl1</Name>
+      <Namespace />
+      <Number>9</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.InstanceDB>
+</Document>
